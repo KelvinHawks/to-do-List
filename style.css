@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(203, 250, 235);
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    background-color: #ddd;
+    width: 500px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.grocery-form h2{
+    color: rgb(27, 27, 27);
+}
+.form-control{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.form-control input{
+    background-color: rgb(116, 185, 241);
+    border: none;
+    padding: 6px;
+    width: 90%;
+    border-radius: 4px 0px 0px 4px;
+}
+.form-control button{
+    background-color: rgb(31, 106, 167);
+    border: none;
+    padding: 6px;
+    width: 80px;
+    border-radius: 0px 4px 4px 0px;
+}
+.grocery-container{
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+    align-items: center;
+    visibility: hidden;
+}
+.show-container{
+    visibility: visible;
+}
+.grocery-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+.btn-container button{
+    border: none;
+}
+.edit-btn .edit{
+    color: forestgreen;
+}
+.delete-btn .trash{
+    color: rgb(201, 50, 50);
+}
+.clear-btn{
+    border: none;
+    color: red;
+}
+.alert{
+    text-align: center;
+    padding: 3px;
+}
+.alert-danger{
+    color: #721c24;
+    background: #e48d94;
+}
+.alert-success{
+    color: #155724;
+    background: #a8eeb8;
+}
